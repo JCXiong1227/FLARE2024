@@ -31,6 +31,8 @@ pip install -r requirements.txt
 The validation set consists of two subsets: Testing and Tuning. For detailed information about the data sources, please refer to the official webpage of FLARE2024 Task 2. The inference results for each subset are provided separately in the ValidResults folder.
 
 ## How to use this code
+### train
+For detailed training code, see the instructions in the readme under the main branch.
 ### Inference On CPU
 Inferencing files can be found in  folder "flare2024OneStageinference". To execute inference on a GPU, please modify certain sections of the code in ./flare2024OneStageinference/infer.py. Run in terminal: 
 ```
